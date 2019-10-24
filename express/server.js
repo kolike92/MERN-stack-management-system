@@ -18,7 +18,7 @@ app.use(function(req, res, next) { //for CORS error
 
   //connecting Mongo DB
   const mongoose = require('mongoose');
-  mongoose.connect('mongodb://kolike92:KOlike2266@app1-shard-00-00-efhao.mongodb.net:27017,app1-shard-00-01-efhao.mongodb.net:27017,app1-shard-00-02-efhao.mongodb.net:27017/test?ssl=true&replicaSet=app1-shard-0&authSource=admin&retryWrites=true&w=majority');
+  mongoose.connect('mongodb://kolike92:********@app1-shard-00-00-efhao.mongodb.net:27017,app1-shard-00-01-efhao.mongodb.net:27017,app1-shard-00-02-efhao.mongodb.net:27017/test?ssl=true&replicaSet=app1-shard-0&authSource=admin&retryWrites=true&w=majority');
   //connecting the Schema
   const User = require('./users')
 // A route for /  home page 
